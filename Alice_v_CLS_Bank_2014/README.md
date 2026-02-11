@@ -1,4 +1,4 @@
-## Alice Corp. v. CLS Bank (573 U.S. 208, 2014)
+DRAFT --- ## Alice Corp. v. CLS Bank (573 U.S. 208, 2014)
 
 ![Slip Opinion – First Page](slip_opinion_alice.png)
 
@@ -34,16 +34,9 @@ This folder collects the asserted patents, representative claims, and structured
 
 ## Patent Family at Issue (Alice v. CLS Bank)
 
-The litigation involved four related patents in a single continuation/CIP family,
-all tracing back to the same 1993 parent application. The Supreme Court treated
-Claim 33 of the ’479 patent as representative and applied its §101 analysis to
-all asserted claims across the family.
+The litigation involved four related patents within a single continuation/continuation-in-part family. The Supreme Court treated Claim 33 of the ’479 patent as representative and applied its §101 analysis to all asserted claims across the family.
 
-
-## Patent Family at Issue (Alice v. CLS Bank)
-
-The litigation involved four related patents. The Supreme Court treated **Claim 33 of the ’479 patent** as representative.
-Two later patents (’720, ’375) are **direct continuations of the ’510 application**, and the family ultimately traces back to the ’479 parent via earlier continuation/CIP links.
+In plain terms, the ’479 patent is the parent patent, and the remaining patents are its child patents—later continuations or continuation-in-part filings that trace back to that same family lineage.
 
 | Patent | Relationship (Immediate Parent) | Relationship (Family Lineage) | Filed | Issued |
 |--------|--------------------------------|-------------------------------|-------|--------|
@@ -56,9 +49,7 @@ Two later patents (’720, ’375) are **direct continuations of the ’510 appl
 Key point: invalidation of the representative claims effectively rendered the
 entire patent family ineligible under §101.
 
-
 ---
-
 
 ### Purpose of this Analysis
 
@@ -100,20 +91,42 @@ The goal is to treat eligibility as a claim-structure problem rather than an abs
 
 This analysis focuses on the specific computational and transactional steps recited in the claims rather than the high-level ‘idea of trading risk,’ because patent eligibility and validity turn on the claimed technical implementation details, not the abstract financial concept.
 
+---
 
+### Representative Claim Selection
 
-
-
-MISTAKE HERE SHOULD BE CLAIM 33
-
-### Representative Claim (Selected by Supreme Court)
 The Court treated Claim 33 of the ’479 patent as representative of all asserted claims.
 
-1. A computer-based data processing system to enable the formulation of customized multi-party risk management contracts having a future time of maturity, the system comprising:
-at least one stakeholder input means by which ordering stakeholders can input contract data representing at least one offered contract in at least one predetermined phenomenon, each said phenomenon having a range of future outcomes, and said contract data specifying entitlements due at maturity for said range of future outcomes, and a consideration due to a counter-party stakeholder;
-at least one counter-party stakeholder input means by which at least one counter-party stakeholder can input registering data, independent of said stakeholder entering said contract data, as to a likelihood of each outcome in said range of future outcomes for one or more of said predetermined phenomena;
-a data storage means linked with each said stakeholder input means and linked with each said counter-party stakeholder input means to store said contract data and said registering data; and
-data processing means, linked with the data storage means, for pricing and matching contracts from said contract data and said registering data, said pricing including calculating a counter-consideration derived from said likelihoods and said entitlements, and said matching including comparing said consideration and said counter-consideration to match an offered contract with at least one of said counter-party stakeholders.
+Although most independent claims are drafted as computer systems or computer-implemented processes, Claim 33 removes nearly all computer or hardware language and recites the invention purely as a sequence of ledger-management steps.
+
+By treating this stripped-down claim as “representative,” the Court analyzed the invention without the surrounding “computer” terminology. As a result, the substance of the claims appears as straightforward ledger bookkeeping rather than a technological improvement.
+
+###  Independent Claim Overview (Structure of the Patent)
+
+The table below shows the ten independent claims and highlights how nine rely on explicit computer/system architecture, while Claim 33 stands alone as a pure business method.
+
+| Claim | Statutory Form | Drafting Style | Computer/System Language? | Notes |
+|--------|----------------|----------------|----------------------------|-------|
+| 1 | System (apparatus) | Computer-based data processing system | ✅ Yes | Input means, storage means, processing means |
+| 16 | System (distributed) | Networked data processing devices | ✅ Yes | Multiple processors + communications links |
+| 18 | Method | Computer-implemented method | ✅ Yes | Uses “data processing apparatus” |
+| 32 | Method of making system | Configuring/programming a computer system | ✅ Yes | Hardware interconnections + programming steps |
+| **33** | **Method** | **Pure business process** | ❌ **No** | **Shadow ledgers + balance updates + end-of-day settlement only** |
+| 35 | System | Data processing system | ✅ Yes | Generic computing components |
+| 36 | System | Pricing data processing system | ✅ Yes | Storage + processing means |
+| 37 | System | Pricing/matching system | ✅ Yes | Generic computing structure |
+| 38 | System | Componentized pricing system | ✅ Yes | Still generic computing |
+| 39 | System | Repricing/matching system | ✅ Yes | Generic computing again |
+
+**Observation:** Claim 33 is the only independent claim that omits any computer or system architecture language. The Supreme Court treated this stripped-down method as representative, exposing the invention’s core logic as ledger bookkeeping rather than a technological improvement.
+
+###  Representative Claim Text (Claim 33)
+
+33. A method of exchanging obligations as between parties, each party holding a credit record and a debit record with an exchange institution, the credit records and debit records for exchange of predetermined obligations, the method comprising the steps of:
+(a) creating a shadow credit record and a shadow debit record for each stakeholder party to be held independently by a supervisory institution from the exchange institutions;
+(b) obtaining from each exchange institution a start-of-day balance for each shadow credit record and shadow debit record;
+(c) for every transaction resulting in an exchange obligation, the supervisory institution adjusting each respective party's shadow credit record or shadow debit record, allowing only these transactions that do not result in the value of the shadow debit record being less than the value of the shadow credit record at any time, each said adjustment taking place in chronological order; and
+(d) at the end-of-day, the supervisory institution instructing ones of the exchange institutions to exchange credits or debits to the credit record and debit record of the respective parties in accordance with the adjustments of the said permitted transactions, the credits and debits being irrevocable, time invariant obligations placed on the exchange institutions.
 
 
 
@@ -153,5 +166,6 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
