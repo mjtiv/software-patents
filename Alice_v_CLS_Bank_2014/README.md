@@ -154,6 +154,42 @@ Under this approach, courts ask:
 
 Applying those questions to Claim 33 leads to a straightforward result.
 
+### Step One — Abstract Idea
+When simplified, Claim 33 describes:
+> Create temporary ledgers → copy balances → update transactions → prevent overdrafts → settle at day’s end.
+
+In substance, this is a clearinghouse bookkeeping process.
+
+The claim does not recite:
+- any improvement to computer technology  
+- any specialized hardware or architecture  
+- any new data structure or protocol  
+- any solution to a technical problem  
+
+Instead, it recites only:
+- tracking debits and credits  
+- performing arithmetic updates  
+- enforcing business rules  
+- settling financial obligations  
+
+These are longstanding economic and accounting practices, not technological operations.
+
+Consistent with its earlier decision in *Bilski v. Kappos*, the Supreme Court characterized the focus of the claims as:
+
+> “the abstract idea of intermediated settlement”
+
+Because the claim is directed to this fundamental method of organizing financial activity rather than any technological improvement, it satisfies Step One of the *Mayo Collaborative Services v. Prometheus Laboratories, Inc.* framework and is directed to an abstract idea.
+
+
+
+
+
+
+
+
+
+
+
 
 
 ---
@@ -194,6 +230,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
