@@ -130,6 +130,31 @@ The table below shows the ten independent claims and highlights how nine rely on
 (c) for every transaction resulting in an exchange obligation, the supervisory institution adjusting each respective party's shadow credit record or shadow debit record, allowing only these transactions that do not result in the value of the shadow debit record being less than the value of the shadow credit record at any time, each said adjustment taking place in chronological order; and
 (d) at the end-of-day, the supervisory institution instructing ones of the exchange institutions to exchange credits or debits to the credit record and debit record of the respective parties in accordance with the adjustments of the said permitted transactions, the credits and debits being irrevocable, time invariant obligations placed on the exchange institutions.
 
+Simplified Version of Representative Claim 33 (Plain-English Restatement)
+
+To understand why Claim 33 fails under §101, it helps to restate it without patent drafting language.
+When translated into ordinary operational steps, the claim describes routine clearinghouse bookkeeping:
+
+Claim 33 — Simplified
+1. Create temporary (“shadow”) ledger accounts for each party
+2. Copy each party’s starting balances from their bank
+3. For each transaction:
+- update the temporary balances
+- reject the transaction if funds are insufficient
+4. At the end of the day, instruct the banks to settle the approved transactions
+
+## §101 Eligibility Analysis of Representative Claim 33
+
+The Supreme Court evaluates patent eligibility using the two-step framework first articulated in *Mayo Collaborative Services v. Prometheus Laboratories, Inc.* and subsequently applied to software and business-method patents in *Alice Corp. v. CLS Bank International*.
+
+Under this approach, courts ask:
+
+1. **Is the claim directed to an abstract idea, law of nature, or natural phenomenon?**  
+2. **If so, do the additional claim elements provide an “inventive concept” sufficient to transform the claim into a patent-eligible application?**
+
+Applying those questions to Claim 33 leads to a straightforward result.
+
+
 
 ---
 
@@ -169,6 +194,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
