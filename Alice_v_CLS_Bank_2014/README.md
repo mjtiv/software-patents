@@ -120,6 +120,8 @@ The table below shows the ten independent claims and highlights how nine rely on
 
 **Observation:** Claim 33 is the only independent claim that omits any computer or system architecture language. The Supreme Court treated this stripped-down method as representative, exposing the invention’s core logic as ledger bookkeeping rather than a technological improvement.
 
+---
+
 ###  Representative Claim Text (Claim 33)
 
 33. A method of exchanging obligations as between parties, each party holding a credit record and a debit record with an exchange institution, the credit records and debit records for exchange of predetermined obligations, the method comprising the steps of:
@@ -129,6 +131,7 @@ The table below shows the ten independent claims and highlights how nine rely on
 (d) at the end-of-day, the supervisory institution instructing ones of the exchange institutions to exchange credits or debits to the credit record and debit record of the respective parties in accordance with the adjustments of the said permitted transactions, the credits and debits being irrevocable, time invariant obligations placed on the exchange institutions.
 
 
+---
 
 ## References
 
@@ -147,9 +150,9 @@ The table below shows the ten independent claims and highlights how nine rely on
 
 
 
+---
 
-
-## 8) Author and Feedback
+## Author and Feedback
 
 Prepared by **M. Joseph Tomlinson IV**, Registered U.S. Patent Agent (USPTO Reg. No. 83,522).
 
@@ -166,6 +169,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
