@@ -130,97 +130,89 @@ The table below shows the ten independent claims and highlights how nine rely on
 (c) for every transaction resulting in an exchange obligation, the supervisory institution adjusting each respective party's shadow credit record or shadow debit record, allowing only these transactions that do not result in the value of the shadow debit record being less than the value of the shadow credit record at any time, each said adjustment taking place in chronological order; and
 (d) at the end-of-day, the supervisory institution instructing ones of the exchange institutions to exchange credits or debits to the credit record and debit record of the respective parties in accordance with the adjustments of the said permitted transactions, the credits and debits being irrevocable, time invariant obligations placed on the exchange institutions.
 
-Simplified Version of Representative Claim 33 (Plain-English Restatement)
+## Simplified Version of Claim 33 (Plain-English Restatement)
 
-To understand why Claim 33 fails under §101, it helps to restate it without patent drafting language.
-When translated into ordinary operational steps, the claim describes routine clearinghouse bookkeeping:
+To understand why Claim 33 fails under §101, it helps to restate it without patent drafting language.  
+In practical terms, the claim describes routine clearinghouse bookkeeping:
 
-Claim 33 — Simplified
-1. Create temporary (“shadow”) ledger accounts for each party
-2. Copy each party’s starting balances from their bank
+**Claim 33 — Simplified**
+
+1. Create temporary (“shadow”) ledger accounts for each party  
+2. Copy each party’s starting balances  
 3. For each transaction:
-- update the temporary balances
-- reject the transaction if funds are insufficient
-4. At the end of the day, instruct the banks to settle the approved transactions
+   - update balances  
+   - reject if insufficient funds  
+4. At day’s end, instruct the banks to settle the approved transactions
 
-## §101 Eligibility Analysis of Representative Claim 33
+---
 
-The Supreme Court evaluates patent eligibility using the two-step framework first articulated in *Mayo Collaborative Services v. Prometheus Laboratories, Inc.* and subsequently applied to software and business-method patents in *Alice Corp. v. CLS Bank International*.
+## §101 Eligibility Analysis
 
-Under this approach, courts ask:
+The Supreme Court evaluates patent eligibility using the two-step framework first articulated in *Mayo Collaborative Services v. Prometheus Laboratories, Inc.* and later applied to software and business-method claims in *Alice Corp. v. CLS Bank International*:
 
 1. **Is the claim directed to an abstract idea, law of nature, or natural phenomenon?**  
-2. **If so, do the additional claim elements provide an “inventive concept” sufficient to transform the claim into a patent-eligible application?**
+2. **If so, does the claim include an “inventive concept” that transforms it into patent-eligible subject matter?**
 
-Applying those questions to Claim 33 leads to a straightforward result.
+Applying those questions to Claim 33 is straightforward.
+
+---
 
 ### Step One — Abstract Idea
 
-#### Simplified Function
+When reduced to its operational steps:
 
-When reduced to its operational steps, Claim 33 describes:
-
-> Create temporary ledgers → copy balances → update transactions → prevent overdrafts → settle at day’s end.
+> Create temporary ledgers → copy balances → update transactions → prevent overdrafts → settle at day’s end
 
 This is simply a clearinghouse bookkeeping process.
 
----
+The claim recites only routine financial and accounting operations and does **not** describe any technological improvement, specialized architecture, or technical solution.
 
-#### What the Claim Actually Recites
-
-The claim includes only routine financial and accounting operations:
-
-- tracking debits and credits  
-- performing arithmetic updates  
-- enforcing overdraft rules  
-- settling obligations between parties  
-
-It does **not** recite:
-
-- any improvement to computer technology  
-- any specialized hardware or architecture  
-- any new data structure or protocol  
-- any technical solution to a computing problem  
-
----
-
-#### Supreme Court Characterization
-
-Consistent with *Bilski v. Kappos*, the Court described the focus of the claims as:
+Consistent with *Bilski v. Kappos*, the Court characterized the focus of the claims as:
 
 > “the abstract idea of intermediated settlement”
 
----
-
-#### Step One Conclusion
-
-Because the claim is directed to a fundamental method of organizing financial activity rather than a technological improvement, it satisfies Step One of the *Mayo* framework and is directed to an abstract idea.
+**Conclusion:** Claim 33 is directed to an abstract economic practice.
 
 ---
 
 ### Step Two — Inventive Concept
 
-Having determined that the claim is directed to the abstract idea of intermediated settlement, the Court next applied Step Two of the *Mayo* framework.
+The remaining question is whether implementing this logic on a computer adds anything meaningfully technological.
 
-The relevant question was not whether a computer was present, but whether the computer implementation added anything meaningfully technological.
+It does not.
 
-The Court examined the claim:
+Examined individually, each step (recordkeeping, balance updates, and instructions) is routine and conventional.  
+Considered as an ordered combination, the steps still amount only to bookkeeping performed on a generic computer.
 
-- individually — each step (recordkeeping, balance updates, instructions) was routine and conventional; and  
-- as an ordered combination — the steps together still amounted only to bookkeeping performed on a generic computer.
+The computer merely performs basic functions such as storing data, performing arithmetic, and issuing instructions. These are ordinary capabilities of any general-purpose computer and do not transform the abstract idea into a technological invention.
 
-Because the computer merely executed basic functions such as storing data, performing arithmetic, and issuing instructions, it did not transform the abstract idea into a patent-eligible invention.
+**Conclusion:** The claim lacks an inventive concept.
 
-In short, the claims did no more than apply the settlement logic “on a generic computer,” which is insufficient under §101.
+---
 
+### Overall Result
 
+- **Step One:** abstract economic practice  
+- **Step Two:** no technological or inventive contribution  
 
+Therefore, Claim 33 is not patent-eligible subject matter under §101.
 
+Because the parties treated Claim 33 as representative and the remaining claims added only generic computer implementation, the Court’s reasoning applied equally to the other asserted claims. As a practical matter, the decision disposed of the asserted claims across the entire patent family.
 
+---
 
+## Final Note — Unanimous Supreme Court Decision
 
+The decision in *Alice Corp. v. CLS Bank International* was unanimous.
 
+Justice Thomas delivered the opinion for a nine-Justice Court.  
+There was no dissent. The only concurrence (Justice Sotomayor, joined by Justices Ginsburg and Breyer) expressed an even more restrictive view that business-method claims may not be patentable at all.
 
+The absence of disagreement underscores how straightforward the Court viewed the eligibility issue.
+
+<p align="center">
+  <img src="Sotomayor_Concurrence_Page.png" width="700">
+</p>
 
 
 ---
@@ -261,6 +253,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
