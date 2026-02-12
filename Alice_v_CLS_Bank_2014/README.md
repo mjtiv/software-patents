@@ -49,6 +49,13 @@ In plain terms, the ’479 patent is the parent patent, and the remaining patent
 Key point: invalidation of the representative claims effectively rendered the
 entire patent family ineligible under §101.
 
+**Primary source documents:**
+
+- ’479 – [US5970479.pdf](US5970479.pdf)  
+- ’510 – [US6912510.pdf](US6912510.pdf)  
+- ’720 – [US7149720.pdf](US7149720.pdf)  
+- ’375 – [US7725375.pdf](US7725375.pdf)
+
 ---
 
 ### Purpose of this Analysis
@@ -245,6 +252,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
