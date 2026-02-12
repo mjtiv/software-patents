@@ -155,32 +155,63 @@ Under this approach, courts ask:
 Applying those questions to Claim 33 leads to a straightforward result.
 
 ### Step One — Abstract Idea
-When simplified, Claim 33 describes:
+
+#### Simplified Function
+
+When reduced to its operational steps, Claim 33 describes:
+
 > Create temporary ledgers → copy balances → update transactions → prevent overdrafts → settle at day’s end.
 
-In substance, this is a clearinghouse bookkeeping process.
+This is simply a clearinghouse bookkeeping process.
 
-The claim does not recite:
+---
+
+#### What the Claim Actually Recites
+
+The claim includes only routine financial and accounting operations:
+
+- tracking debits and credits  
+- performing arithmetic updates  
+- enforcing overdraft rules  
+- settling obligations between parties  
+
+It does **not** recite:
+
 - any improvement to computer technology  
 - any specialized hardware or architecture  
 - any new data structure or protocol  
-- any solution to a technical problem  
+- any technical solution to a computing problem  
 
-Instead, it recites only:
-- tracking debits and credits  
-- performing arithmetic updates  
-- enforcing business rules  
-- settling financial obligations  
+---
 
-These are longstanding economic and accounting practices, not technological operations.
+#### Supreme Court Characterization
 
-Consistent with its earlier decision in *Bilski v. Kappos*, the Supreme Court characterized the focus of the claims as:
+Consistent with *Bilski v. Kappos*, the Court described the focus of the claims as:
 
 > “the abstract idea of intermediated settlement”
 
-Because the claim is directed to this fundamental method of organizing financial activity rather than any technological improvement, it satisfies Step One of the *Mayo Collaborative Services v. Prometheus Laboratories, Inc.* framework and is directed to an abstract idea.
+---
 
+#### Step One Conclusion
 
+Because the claim is directed to a fundamental method of organizing financial activity rather than a technological improvement, it satisfies Step One of the *Mayo* framework and is directed to an abstract idea.
+
+---
+
+### Step Two — Inventive Concept
+
+Having determined that the claim is directed to the abstract idea of intermediated settlement, the Court next applied Step Two of the *Mayo* framework.
+
+The relevant question was not whether a computer was present, but whether the computer implementation added anything meaningfully technological.
+
+The Court examined the claim:
+
+- individually — each step (recordkeeping, balance updates, instructions) was routine and conventional; and  
+- as an ordered combination — the steps together still amounted only to bookkeeping performed on a generic computer.
+
+Because the computer merely executed basic functions such as storing data, performing arithmetic, and issuing instructions, it did not transform the abstract idea into a patent-eligible invention.
+
+In short, the claims did no more than apply the settlement logic “on a generic computer,” which is insufficient under §101.
 
 
 
@@ -230,6 +261,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
