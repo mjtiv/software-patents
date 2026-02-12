@@ -204,13 +204,13 @@ Because the parties treated Claim 33 as representative and the remaining claims 
 ## Final Note — Unanimous Supreme Court Decision
 
 The decision in *Alice Corp. v. CLS Bank International* was unanimous.  
-Justice Thomas delivered the opinion for a nine-Justice Court and there was no dissent.
+Justice Thomas delivered the opinion for a nine-Justice Court. There were no dissents.
 
 <p align="center">
-  <img src="Sotomayor_Concurrence_Page.png" width="600">
+  <img src="Sotomayor_Concurrence_Page.png" width="500">
 </p>
 
-*Justice Sotomayor’s concurrence (joined by Justices Ginsburg and Breyer), showing no dissents.*
+*Justice Sotomayor’s concurrence (joined by Justices Ginsburg and Breyer).*
 
 ---
 
@@ -239,6 +239,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
