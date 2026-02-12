@@ -151,7 +151,7 @@ In practical terms, the claim describes routine clearinghouse bookkeeping:
 The Supreme Court evaluates patent eligibility using the two-step framework first articulated in *Mayo Collaborative Services v. Prometheus Laboratories, Inc.* and later applied to software and business-method claims in *Alice Corp. v. CLS Bank International*:
 
 <p align="center">
-  <img src="Mayo_Framework_Page.png" width="650">
+  <img src="Mayo_Framework_Page.png" width="500">
 </p>
 
 *Slip opinion from* Mayo *stating that the Court “set forth a framework” for the two-step eligibility analysis later applied in Alice.*
@@ -245,6 +245,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
