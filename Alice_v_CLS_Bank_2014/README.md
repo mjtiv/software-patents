@@ -1,4 +1,4 @@
-DRAFT --- ## Alice Corp. v. CLS Bank (573 U.S. 208, 2014)
+## Alice Corp. v. CLS Bank (573 U.S. 208, 2014)
 
 ![Slip Opinion – First Page](slip_opinion_alice.png)
 
@@ -242,6 +242,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
