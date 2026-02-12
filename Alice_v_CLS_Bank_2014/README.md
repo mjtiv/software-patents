@@ -203,17 +203,14 @@ Because the parties treated Claim 33 as representative and the remaining claims 
 
 ## Final Note — Unanimous Supreme Court Decision
 
-The decision in *Alice Corp. v. CLS Bank International* was unanimous.
-
-Justice Thomas delivered the opinion for a nine-Justice Court.  
-There was no dissent. The only concurrence (Justice Sotomayor, joined by Justices Ginsburg and Breyer) expressed an even more restrictive view that business-method claims may not be patentable at all.
-
-The absence of disagreement underscores how straightforward the Court viewed the eligibility issue.
+The decision in *Alice Corp. v. CLS Bank International* was unanimous.  
+Justice Thomas delivered the opinion for a nine-Justice Court and there was no dissent.
 
 <p align="center">
   <img src="Sotomayor_Concurrence_Page.png" width="600">
 </p>
 
+*Justice Sotomayor’s concurrence (joined by Justices Ginsburg and Breyer), showing no dissents.*
 
 ---
 
@@ -242,6 +239,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
