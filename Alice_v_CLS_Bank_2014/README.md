@@ -211,7 +211,7 @@ There was no dissent. The only concurrence (Justice Sotomayor, joined by Justice
 The absence of disagreement underscores how straightforward the Court viewed the eligibility issue.
 
 <p align="center">
-  <img src="Sotomayor_Concurrence_Page.png" width="700">
+  <img src="Sotomayor_Concurrence_Page.png" width="600">
 </p>
 
 
@@ -222,17 +222,6 @@ The absence of disagreement underscores how straightforward the Court viewed the
 - Justia summary: https://supreme.justia.com/cases/federal/us/573/208/  
 - Background overview: https://en.wikipedia.org/wiki/Alice_Corp._v._CLS_Bank_International
 - Discuss of case relevance: https://www.law.cornell.edu/supct/cert/13-298
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
@@ -253,6 +242,7 @@ Corrections, suggestions, or additional sources are welcome.
 Please open an issue or contact the author directly.
 
 **Email:** mjtiv@udel.edu
+
 
 
 
